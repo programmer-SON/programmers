@@ -50,6 +50,7 @@ class Solution {
             if(!set.contains(str)){
                 set.add(str);
             }
+            return;
         }
         
          for(int i=biIdx; i<bi.length;i++){
